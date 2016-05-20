@@ -1,6 +1,5 @@
-package com.stone.hibernate;
+package com.stone.hibernate.Entity;
 
-import javax.persistence.*;
 import java.util.Date;
 
 /**

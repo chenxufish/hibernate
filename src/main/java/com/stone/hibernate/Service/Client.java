@@ -1,5 +1,6 @@
-package com.stone.hibernate;
+package com.stone.hibernate.Service;
 
+import com.stone.hibernate.Entity.User;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.hibernate.cfg.Configuration;
@@ -19,7 +20,7 @@ public class Client {
             session = factory.openSession();
             session.beginTransaction();
             User user = new User();
-            user.setName("mikcey");
+            user.setName("mikcey" + Math.random());
             user.setPassword("1988903545");
             user.setCreateTime(new Date());
             user.setExpireTime(new Date());

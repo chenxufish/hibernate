@@ -4,7 +4,7 @@
         "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
 <hibernate-mapping>
     <!--生成默认为user的数据库表-->
-    <class name="com.stone.hibernate.User">
+    <class name="com.stone.hibernate.Entity.User">
         <id name="id">
             <!-- 算法的核心思想是结合机器的网卡、当地时间、一个随机数来生成GUID -->
             <generator class="uuid"></generator>

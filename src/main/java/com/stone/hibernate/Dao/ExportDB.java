@@ -1,7 +1,6 @@
-package com.stone.hibernate;
+package com.stone.hibernate.Dao;
 
 
-import org.hibernate.cfg.AnnotationConfiguration;
 import org.hibernate.cfg.Configuration;
 import org.hibernate.tool.hbm2ddl.SchemaExport;
 
